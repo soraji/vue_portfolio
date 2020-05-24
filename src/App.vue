@@ -9,21 +9,20 @@
 <script>
 import Footer from './components/footer.vue'
 import Header from './components/header.vue'
+// import home from './home.vue';
+// import about from './about.vue';
+// import work from './work.vue';
+// import contact from './contact.vue';
 export default {
   name: 'App',
   components: {
-    Header, Footer
+    Header, Footer, 
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+  margin:0; padding:0;
 }
 </style>
